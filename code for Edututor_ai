@@ -11,7 +11,7 @@ credentials = {
 model = ModelInference(
     model_id=model_id,
     params={"decoding_method": "greedy"},  
-    project_id="9d058698-f151-404a-af06-722f7cab493a",
+    project_id=project_id,
     credentials=credentials
 )
 
