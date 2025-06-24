@@ -4,13 +4,13 @@ EduTutor_AI - Personalized Learning using IBM Watsonx and Generative AI
 
 
 
-**🧠#Project Overview**
+# 🧠Project Overview
 
 EduTutor_AI showcases the use of IBM Watsonx AI's Granite-13B Instruct model to provide personalized educational experiences. The AI model can simulate human-like interactions and generate intelligent responses based on user input, enhancing the learning process for students.
 
 
 
-**🧰#Tools & Technologies**
+# 🧰Tools & Technologies
 
 IBM Cloud Pak for Data
 
@@ -25,7 +25,7 @@ Jupyter Notebook
 
 
 
-**📝#Sample Prompt**
+# 📝Sample Prompt
 
 > Explain the concept of deep learning.
 
@@ -33,15 +33,13 @@ Jupyter Notebook
 
 
 
-**🧾#Sample Output**
+# 🧾Sample Output
 
 > Deep learning is a subset of machine learning that uses artificial neural networks with many layers .
 
 
 
-
-
-**▶ #How to Run the Notebook**
+# ▶How to Run the Notebook
 
 1. Open the IBM Watsonx.ai platform.
 
@@ -55,7 +53,7 @@ Jupyter Notebook
 
 
 
-**🔗Important Links**
+# 🔗Important Links
 
 IBM Watsonx: https://www.ibm.com/watsonx
 
@@ -63,7 +61,7 @@ Granite Models Info: https://www.ibm.com/blog/ibm-granite-models
 
 
 
-👥 Team Info
+# 👥Team Info
 
 Team ID: LTVIP2025TMID30133
 
