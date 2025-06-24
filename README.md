@@ -76,11 +76,6 @@ Team Member: K Charan Kumar
 Team Member: Ravilla Charan
 
 
-
-
 ⚠ #Note:
 This notebook is designed to run in IBM Watsonx.ai / IBM Cloud Pak for Data environment.
 It may not work on platforms like Google Colab as IBM-specific libraries (ibm_watsonx_ai) are not available there.
-
-
-Let me know if you'd like a downloadable .md file version or a customized design for GitHub!
