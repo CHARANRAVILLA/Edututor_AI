@@ -1,27 +1,30 @@
 import streamlit as st
-from ibm_watsonx_ai import ModelInference
-from ibm_watsonx_ai.foundation_models.utils.enums import ModelTypes  # optional, for setting model type
-from ibm_watsonx_ai.metanames import GenTextParamsMetaNames  # optional, for setting params
+from ibm_watsonx_ai.foundation_models import ModelInference
 
+# Watsonx credentials and settings
 model_id = "ibm/granite-3-8b-instruct"
-project_id = "9d058698-f151-404a-af06-722f7cab493a"
+project_id = "e148ca84-35e1-433d-9d5e-a71c64c3def8"
 credentials = {
     "url": "https://eu-de.ml.cloud.ibm.com",
-    "apikey": "sCZynfN1FMBJSW-3waswn2krcNtypCQkqcCFJxOEcDku"
+    "apikey": "bCDB66qGQ4GEdDAu6o6kQ-BM4iLenxHfXZDZCrwtMwKf"
 }
 
+# Streamlit UI
 st.title("EduTutor AI")
+
 question = st.text_input("Ask your question:")
 
-if st.button("Get Answer") and question.strip():
+if st.button("Get Answer") and question.strip() != "":
     model = ModelInference(
         model_id=model_id,
         params={
-            GenTextParamsMetaNames.DECODING_METHOD: "greedy",
-            GenTextParamsMetaNames.MAX_NEW_TOKENS: 300
+            "decoding_method": "greedy",
+            "max_new_tokens": 500
         },
         project_id=project_id,
         credentials=credentials
     )
-    response = model.generate(prompt=question)
-    st.write(response['results'][0]['generated_text'])
+
+    response = model.generate(question)
+    answer = response["results"][0]["generated_text"]
+    st.write(answer)
