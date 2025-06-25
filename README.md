@@ -61,7 +61,9 @@ Granite Models Info: https://www.ibm.com/blog/ibm-granite-models
 
 
 
-# 👥Team Info
+# 👥Give this a try
+
+https://edututorai-k4cgrtu44eqfhxhmrr9rft.streamlit.app/
 
 Team ID: LTVIP2025TMID30133
 
