@@ -67,12 +67,6 @@ https://edututorai-pwbpppfrbjfhraq3qhtc8s.streamlit.app/
 
 Team ID: LTVIP2025TMID30133
 
-Team Leader: Pamaluru Bhavani
-
-Team Member: Chaitanya Palle
-
-Team Member: K Charan Kumar
-
 Team Member: Ravilla Charan
 
 
