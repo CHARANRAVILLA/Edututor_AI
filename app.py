@@ -5,11 +5,11 @@ from ibm_watsonx_ai.foundation_models import ModelInference
 
 # Watsonx credentials and settings
 model_id = "ibm/granite-3-8b-instruct"
-project_id = "e148ca84-35e1-433d-9d5e-a71c64c3def8"
+project_id = "9d058698-f151-404a-af06-722f7cab493a"
 
 credentials = {
     "url": "https://eu-de.ml.cloud.ibm.com",
-    "apikey": "bCDB66qGQ4GEdDAu6o6kQ-BM4iLenxHfXZDZCrwtMwKf"
+    "apikey": "sCZynfN1FMBJSW-3waswn2krcNtypCQkqcCFJxOEcDku"
 }
 
 # Streamlit UI
