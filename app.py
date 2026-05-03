@@ -4,7 +4,7 @@ from ibm_watsonx_ai.foundation_models import ModelInference
 # EduTutor AI - Streamlit Interface with IBM Watsonx
 
 # Watsonx credentials and settings
-model_id = "ibm/granite-3-8b-instruct"
+model_id = "meta-llama/llama-3-3-70b-instruct"
 project_id = "e148ca84-35e1-433d-9d5e-a71c64c3def8"
 
 credentials = {
