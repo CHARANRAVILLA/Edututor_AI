@@ -12,6 +12,8 @@ credentials = {
     "apikey": "JdQ-bs6bJZkOr0FU-aztrLmpma0EUPUR0Aq4ltdJlgb6"
 }
 
+st.write("KEY PREFIX:", credentials["apikey"][:8])
+
 # Streamlit UI
 st.set_page_config(page_title="EduTutor AI", page_icon="🎓")
 st.title("🎓 EduTutor AI")
