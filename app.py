@@ -9,7 +9,7 @@ project_id = "e148ca84-35e1-433d-9d5e-a71c64c3def8"
 
 credentials = {
     "url": "https://eu-de.ml.cloud.ibm.com",
-    "apikey": "JdQ-bs6bJZkOr0FU-aztrLmpma0EUPUR0Aq4ltdJlgb6"
+    "apikey": "mHih1EC3mkxn1yyATF8Y6eUBtW7P1GdJDzOKDMs0YvOE"
 }
 
 st.write("KEY PREFIX:", credentials["apikey"][:8])
