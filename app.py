@@ -9,7 +9,7 @@ project_id = "e148ca84-35e1-433d-9d5e-a71c64c3def8"
 
 credentials = {
     "url": "https://eu-de.ml.cloud.ibm.com",
-    "apikey": "2eIRjy5SsgqFNp10T_5JKrbY0kGqq9ztHKInT1qiG5iF"
+    "apikey": "JdQ-bs6bJZkOr0FU-aztrLmpma0EUPUR0Aq4ltdJlgb6"
 }
 
 # Streamlit UI
