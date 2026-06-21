@@ -15,6 +15,7 @@ credentials = {
 # Streamlit UI
 st.set_page_config(page_title="EduTutor AI", page_icon="🎓")
 st.title("🎓 EduTutor AI")
+st.write("DEPLOY TEST 123")
 st.markdown("Ask any question and get AI-powered answers using IBM watsonx.ai")
 
 # User input
