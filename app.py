@@ -8,9 +8,11 @@ model_id = "meta-llama/llama-3-3-70b-instruct"
 project_id = "9d058698-f151-404a-af06-722f7cab493a"
 
 
+import streamlit as st
+
 credentials = {
     "url": "https://eu-de.ml.cloud.ibm.com",
-    "apikey": "mHih1EC3mkxn1yyATF8Y6eUBtW7P1GdJDzOKDMs0YvOE"
+    "apikey": st.secrets["but62LlsSMGmgNmg4XPtYSSZmAw8WE3ivhAMgHEpEq1i"]
 }
 
 
