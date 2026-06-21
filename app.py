@@ -12,7 +12,7 @@ import streamlit as st
 
 credentials = {
     "url": "https://eu-de.ml.cloud.ibm.com",
-    "apikey": st.secrets["but62LlsSMGmgNmg4XPtYSSZmAw8WE3ivhAMgHEpEq1i"]
+    "apikey": st.secrets["IBM_API_KEY"]
 }
 
 
